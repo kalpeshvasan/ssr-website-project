@@ -1,0 +1,1 @@
+export function Breadcrumb({items}:{items:{label:string;href?:string}[]}){return <nav aria-label="Breadcrumb"><ol className="row">{items.map((x,i)=><li key={x.label}>{i>0&&" / "}{x.href?<a href={x.href}>{x.label}</a>:x.label}</li>)}</ol></nav>}

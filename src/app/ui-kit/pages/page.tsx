@@ -1,0 +1,1 @@
+import {HomePage,AboutPage} from "@/ui-kit/pages"; export default function Pages(){return <div className="container section"><div className="page-title"><span className="badge">PAGES</span><h1>Page compositions</h1></div><section className="showcase"><h2>HomePage</h2><HomePage/></section><section className="showcase"><h2>AboutPage</h2><AboutPage/></section></div>}

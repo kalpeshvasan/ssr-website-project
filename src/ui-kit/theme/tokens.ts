@@ -1,0 +1,1 @@
+export const tokens={container:"1180px",transition:"180ms ease",zHeader:50} as const;

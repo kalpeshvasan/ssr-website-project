@@ -1,0 +1,2 @@
+"use client"; import type {ReactNode} from "react";
+export function Drawer({open,onClose,children}:{open:boolean;onClose:()=>void;children:ReactNode}){if(!open)return null;return <div role="dialog" aria-modal="true" style={{position:"fixed",inset:0,background:"rgba(0,0,0,.35)",zIndex:100}}><aside style={{marginLeft:"auto",height:"100%",width:"min(92vw,420px)",background:"#fff",padding:24}}><button className="btn btn-secondary" onClick={onClose}>Close</button>{children}</aside></div>}

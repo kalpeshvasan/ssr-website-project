@@ -1,0 +1,2 @@
+import {Accordion} from "../components/Accordion";
+export function FAQSection(){return <section className="section"><div className="container"><div className="section-heading"><div className="eyebrow">FAQ</div><h2>Frequently asked questions</h2></div><Accordion items={[{question:"Is this App Router?",answer:"Yes."},{question:"Does it include testing?",answer:"No testing frameworks are included."},{question:"Is the mobile menu responsive?",answer:"Yes, below 900px."}]}/></div></section>}

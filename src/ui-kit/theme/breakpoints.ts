@@ -1,0 +1,1 @@
+export const breakpoints={sm:"600px",md:"900px",lg:"1180px"} as const;

@@ -1,0 +1,1 @@
+export function Table({rows}:{rows:{name:string;status:string;value:string}[]}){return <div className="table-wrap"><table className="table"><thead><tr><th>Name</th><th>Status</th><th>Value</th></tr></thead><tbody>{rows.map(r=><tr key={r.name}><td>{r.name}</td><td>{r.status}</td><td>{r.value}</td></tr>)}</tbody></table></div>}

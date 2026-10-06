@@ -1,0 +1,1 @@
+export function Dropdown({label,children}:{label:string;children:React.ReactNode}){return <details><summary className="btn btn-secondary">{label}</summary><div className="card">{children}</div></details>}

@@ -1,0 +1,1 @@
+import {NewsletterForm} from "../components/NewsletterForm"; export function NewsletterSection(){return <section className="section-sm"><div className="container card"><div className="section-heading"><div className="eyebrow">Newsletter</div><h2>Stay in the loop</h2></div><NewsletterForm/></div></section>}

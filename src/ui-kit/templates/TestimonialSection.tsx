@@ -1,0 +1,1 @@
+export function TestimonialSection(){return <section className="section"><div className="container card center"><blockquote style={{fontSize:24}}>“A clean starting point for a modern website.”</blockquote><p className="muted">— Product team</p></div></section>}

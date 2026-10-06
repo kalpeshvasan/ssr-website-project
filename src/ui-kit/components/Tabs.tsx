@@ -1,0 +1,2 @@
+"use client"; import {useState} from "react";
+export function Tabs({items}:{items:{label:string;content:React.ReactNode}[]}){const[a,setA]=useState(0);return <div><div className="row">{items.map((x,i)=><button key={x.label} className={`btn ${a===i?"btn-primary":"btn-secondary"}`} role="tab" aria-selected={a===i} onClick={()=>setA(i)}>{x.label}</button>)}</div><div className="card" style={{marginTop:16}}>{items[a].content}</div></div>}

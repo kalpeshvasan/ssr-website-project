@@ -1,0 +1,1 @@
+import {HeroTemplate,FeatureSection,StatsSection,CTASection} from "../templates"; export function HomePage(){return <><HeroTemplate eyebrow="Home" title="Composable homepage" description="Built from shared templates." primary={{label:"Explore",href:"/ui-kit"}}/><FeatureSection/><StatsSection/><CTASection/></>}

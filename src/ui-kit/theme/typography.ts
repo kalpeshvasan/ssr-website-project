@@ -1,0 +1,1 @@
+export const typography={fontFamily:"Arial, Helvetica, sans-serif",headingWeight:800,bodyWeight:400} as const;

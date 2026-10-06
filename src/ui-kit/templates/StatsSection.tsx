@@ -1,0 +1,1 @@
+export function StatsSection(){return <section className="section-sm"><div className="container grid grid-4">{[["30+","routes"],["28","components"],["9","templates"],["100%","responsive"]].map(([a,b])=><div className="stat" key={b}><strong>{a}</strong><span className="muted">{b}</span></div>)}</div></section>}

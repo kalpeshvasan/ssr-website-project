@@ -1,0 +1,1 @@
+export function Avatar({name}:{name:string}){return <span aria-label={name} style={{width:42,height:42,borderRadius:"50%",background:"var(--soft)",display:"inline-grid",placeItems:"center",fontWeight:800}}>{name[0]}</span>}

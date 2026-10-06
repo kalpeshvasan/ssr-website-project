@@ -1,0 +1,1 @@
+export const radius={sm:"8px",md:"14px",lg:"24px",pill:"999px"} as const;

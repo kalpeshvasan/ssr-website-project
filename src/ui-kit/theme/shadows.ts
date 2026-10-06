@@ -1,0 +1,1 @@
+export const shadows={sm:"0 2px 8px rgba(20,32,51,.06)",md:"0 12px 32px rgba(20,32,51,.10)"} as const;

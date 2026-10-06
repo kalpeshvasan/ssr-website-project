@@ -1,0 +1,1 @@
+export function Pagination({pages=5}:{pages?:number}){return <nav aria-label="Pagination" className="row">{Array.from({length:pages},(_,i)=><button className="btn btn-secondary" key={i}>{i+1}</button>)}</nav>}

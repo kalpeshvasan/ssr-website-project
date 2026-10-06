@@ -1,0 +1,2 @@
+"use client"; import type {ReactNode} from "react";
+export function Modal({open,onClose,title,children}:{open:boolean;onClose:()=>void;title:string;children:ReactNode}){if(!open)return null;return <div role="dialog" aria-modal="true" style={{position:"fixed",inset:0,background:"rgba(0,0,0,.4)",display:"grid",placeItems:"center",zIndex:100}}><div className="card" style={{width:"min(92vw,560px)"}}><div className="row" style={{justifyContent:"space-between"}}><h2>{title}</h2><button onClick={onClose} aria-label="Close dialog">×</button></div>{children}</div></div>}
